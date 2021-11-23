@@ -1,0 +1,37 @@
+{
+  "name": "stimulus",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "image-search-engine": "^1.2.1",
+    "morgan": "~1.9.1",
+    "motivation": "^1.0.3"
+  },
+  "description": "A motivational app",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1imad/stimulus.git"
+  },
+  "keywords": [
+    "motivation",
+    "motivational",
+    "quotes"
+  ],
+  "author": "Imad Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1imad/stimulus/issues"
+  },
+  "homepage": "https://github.com/1imad/stimulus#readme"
+}
